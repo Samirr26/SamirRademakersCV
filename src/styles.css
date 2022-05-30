@@ -1,8 +1,12 @@
 @import url('http://fonts.cdnfonts.com/css/boomer-tantrum');
+@import url('http://fonts.cdnfonts.com/css/jane-roe');
+@import url('http://fonts.cdnfonts.com/css/average-sans');
 
 
 
 body{
-  background-color: rgba(24,25,25,255);
+  /*background-color: rgba(24,25,25,255);*/
+  background-color: rgba(28,27,28,255);
+
   font-family: 'Boomer Tantrum', sans-serif;
 }

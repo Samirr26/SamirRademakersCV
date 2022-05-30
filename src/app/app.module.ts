@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import {RouterModule, Routes} from "@angular/router";
 import { HomepageComponent } from './components/homepage/homepage.component';
+import {MatDividerModule} from '@angular/material/divider';
+
+
 
 const routes: Routes = [
   {path: '', component: HomepageComponent}
@@ -18,7 +21,8 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
