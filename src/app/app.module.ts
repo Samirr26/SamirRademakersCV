@@ -6,11 +6,14 @@ import { HeaderComponent } from './components/header/header.component';
 import {RouterModule, Routes} from "@angular/router";
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 
 
 const routes: Routes = [
-  {path: '', component: HomepageComponent}
+  {path: '', component: HomepageComponent},
+  {path: 'projects', component: ProjectsComponent}
+
 ]
 
 @NgModule({
@@ -18,6 +21,7 @@ const routes: Routes = [
     AppComponent,
     HeaderComponent,
     HomepageComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

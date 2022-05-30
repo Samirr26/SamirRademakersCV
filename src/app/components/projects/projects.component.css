@@ -1,0 +1,89 @@
+
+.projects-container{
+  font-family: 'B612 Mono', sans-serif;
+  color: white;
+  width: 2320px;
+  height: 980px;
+  background-color: rgba(33,32,33,255);
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  margin: 30px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-project-container{
+  height: 100%;
+  width: 2020px;
+  padding: 30px;
+}
+
+.single-project-container h1{
+  font-size: 75px;
+}
+
+/*.single-project-container h2{*/
+/*  float: left;*/
+/*  max-width: 840px;*/
+/*  margin: 20px;*/
+/*  font-size: 20px;*/
+/*}*/
+
+.description-container{
+  font-size: 20px;
+  float: left;
+  max-width: 840px;
+}
+
+.description-container h2{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.description-container h1{
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.single-project-container img{
+  /*width: 500px;*/
+  height: 500px;
+  margin: 20px;
+  float: right;
+}
+
+.next-button {
+  height: 100%;
+  width: 150px;
+  float: right;
+  font-size: 80px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.previous-button{
+  height: 100%;
+  width: 150px;
+  float: left;
+  font-size: 80px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previous-button:hover{
+  background-color: rgba(38,37,38,255);
+}
+
+.next-button:hover{
+  background-color: rgba(38,37,38,255);
+}
+
+.project-container h1{
+  font-size: 50px;
+}

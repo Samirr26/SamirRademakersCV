@@ -1,0 +1,29 @@
+<div class="projects-container">
+  <div (click)="previousProject()" class="previous-button"> < </div>
+
+  <div class="single-project-container">
+
+    <h1>{{projects[counter].title}}</h1>
+    <mat-divider></mat-divider>
+
+
+    <div class="description-container">
+
+      <h1>Short Description</h1>
+      <mat-divider></mat-divider>
+      <h2>{{projects[counter].description}}</h2>
+
+      <h1>Skills</h1>
+      <mat-divider></mat-divider>
+      <h2 *ngFor="let skill of projects[counter].skills">○ {{skill}}</h2>
+
+
+    </div>
+
+
+    <img *ngFor="let picture of projects[counter].pictures" src="picture" alt="img">
+
+  </div>
+  <div (click)="nextProject()" class="next-button"> > </div>
+
+</div>

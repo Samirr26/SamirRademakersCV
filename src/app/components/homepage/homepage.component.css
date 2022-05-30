@@ -4,28 +4,27 @@
   margin: 80px auto;
   background-color: rgba(33,32,33,255);
   box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  width: 1300px;
+  width: 1700px;
   display: flex;
   justify-content: left;
 }
 
 .profile-image{
-  width: 500px;
-  /*float: left;*/
+  width: 600px;
 }
 
 .info-container{
   color: white;
-  /*float: left;*/
   margin-left: 30px;
+  width: 788px;
 }
 
 .info-container h1{
-  font-size: 80px;
+  font-size: 100px;
 }
 
 .info-container h2{
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 20px;
 }
 
