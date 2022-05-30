@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('http://fonts.cdnfonts.com/css/boomer-tantrum');
+
+
+
+body{
+  background-color: rgba(24,25,25,255);
+  font-family: 'Boomer Tantrum', sans-serif;
+}
