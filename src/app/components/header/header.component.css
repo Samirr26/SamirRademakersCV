@@ -21,6 +21,7 @@
   margin: 0px;
   font-size: 50px;
   transition: all 0.3s ease 0s;
+
 }
 
 .logo h1 a{
@@ -30,6 +31,18 @@
 .logo h1:hover{
   font-size: 54px;
 }
+
+.logo h2{
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.logo h2 a{
+  color: rgba(0, 249, 255, 0.9);
+
+}
+
 
 
 .nav-container h1{

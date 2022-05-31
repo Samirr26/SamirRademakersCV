@@ -7,6 +7,8 @@ import {RouterModule, Routes} from "@angular/router";
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { ProjectsComponent } from './components/projects/projects.component';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 
@@ -26,7 +28,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    MatDividerModule
+    MatDividerModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

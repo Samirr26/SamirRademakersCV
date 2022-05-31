@@ -35,3 +35,25 @@
   margin: 0px;
 }
 
+.info-container h3 a{
+  color: rgba(0, 249, 255, 0.9);
+}
+
+.email{
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.email .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(15,14,15,255);
+  text-align: center;
+  border-radius: 6px;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.email:hover .tooltiptext {
+  visibility: visible;
+}
+
