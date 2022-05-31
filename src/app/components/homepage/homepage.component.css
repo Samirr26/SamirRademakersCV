@@ -16,11 +16,12 @@
 .info-container{
   color: white;
   margin-left: 30px;
-  width: 788px;
 }
 
 .info-container h1{
-  font-size: 100px;
+  font-family: 'Boomer Tantrum', sans-serif;
+  font-size: 80px;
+  margin-top: -8px;
 }
 
 .info-container h2{
@@ -29,6 +30,8 @@
 }
 
 .info-container h3{
+  font-family: 'Boomer Tantrum', sans-serif;
+  font-size: 35px;
   margin: 0px;
 }
 

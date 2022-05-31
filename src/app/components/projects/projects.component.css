@@ -13,6 +13,12 @@
   align-items: center;
 }
 
+.title-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .single-project-container{
   height: 100%;
   width: 2020px;
@@ -22,13 +28,6 @@
 .single-project-container h1{
   font-size: 75px;
 }
-
-/*.single-project-container h2{*/
-/*  float: left;*/
-/*  max-width: 840px;*/
-/*  margin: 20px;*/
-/*  font-size: 20px;*/
-/*}*/
 
 .description-container{
   font-size: 20px;
@@ -47,7 +46,6 @@
 }
 
 .single-project-container img{
-  /*width: 500px;*/
   height: 500px;
   margin: 20px;
   float: right;

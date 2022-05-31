@@ -3,7 +3,12 @@
 
   <div class="single-project-container">
 
-    <h1>{{projects[counter].title}}</h1>
+    <div class="title-container">
+      <h1>{{projects[counter].title}} </h1>
+      <h2>{{counter+1}}/{{projects.length}}</h2>
+    </div>
+
+
     <mat-divider></mat-divider>
 
 
@@ -24,5 +29,4 @@
 
   </div>
   <div (click)="nextProject()" class="next-button"> > </div>
-
 </div>
