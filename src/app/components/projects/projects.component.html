@@ -20,8 +20,7 @@
 
     </div>
 
-
-    <img *ngFor="let picture of projects[counter].pictures" src="picture" alt="img">
+    <img *ngFor="let picture of projects[counter].pictures" src="{{picture}}" alt="img">
 
   </div>
   <div (click)="nextProject()" class="next-button"> > </div>
