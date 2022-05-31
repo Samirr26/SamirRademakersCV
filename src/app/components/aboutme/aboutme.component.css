@@ -1,0 +1,56 @@
+.aboutme-container{
+  font-family: 'pauschal', sans-serif;
+  color: white;
+  width: 2320px;
+  height: 980px;
+  background-color: rgba(33,32,33,255);
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  margin: 30px auto;
+  padding: 30px;
+
+
+}
+
+.aboutme-inner-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme-container h1{
+  color: rgba(0, 249, 255, 0.9);
+  font-size: 80px;
+}
+
+.aboutme-container h2{
+  color: rgba(0, 249, 255, 0.9);
+  font-size: 40px;
+}
+
+.aboutme-container h3{
+  font-size: 30px;
+}
+
+.profile-image{
+  width: 600px;
+  float: right;
+  margin-top: 20px;
+}
+
+.about-me-info-container{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.genre-info-container{
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(42,41,42,255);
+}
+
+.genre-info-container h3{
+  margin-top: 10px;
+
+}

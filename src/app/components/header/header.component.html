@@ -1,6 +1,6 @@
+<html>
+<body>
 <div class="header-container">
-
-
   <div class="logo">
     <h1 (click)="toHomePage()">SAMIR<a>RADEMAKERS</a></h1>
     <h2> <a>Full stack</a> developer</h2>
@@ -9,10 +9,13 @@
 
 
   <div class="nav-container">
-    <h1>About me</h1>
-    <h1 (click)="toProjectsPage()">Projects</h1>
-    <h1 (click)="toSkillsPage()">Skills</h1>
-    <h1>Contact</h1>
+    <h1 id="aboutMeButton" class="nav-button selected-button" (click)="toAboutmePage()"> About me</h1>
+    <h1 id="projectsButton" class="nav-button" (click)="toProjectsPage()">Projects</h1>
+    <h1 id="skillButton" class="nav-button" (click)="toSkillsPage()">Skills</h1>
+    <h1 id="contactButton" class="nav-button" (click)="toContactPage()">Contact</h1>
   </div>
 
 </div>
+
+</body>
+</html>

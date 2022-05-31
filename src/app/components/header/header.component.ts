@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   }
 
   toSkillsPage(){
-
+    this.router.navigate(["skills"])
   }
 
   toProjectsPage(){
@@ -23,7 +23,16 @@ export class HeaderComponent implements OnInit {
 
   toHomePage(){
     this.router.navigate([""])
+  }
+
+  toAboutmePage(){
+    this.router.navigate(["aboutme"])
 
   }
+
+  toContactPage(){
+    this.router.navigate(["contact"])
+  }
+
 
 }

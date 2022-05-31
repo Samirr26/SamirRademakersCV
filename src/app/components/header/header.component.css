@@ -59,3 +59,7 @@
   color: rgba(0, 249, 255, 0.9);
 }
 
+.selected-button{
+  font-size: 34px;
+  color: rgba(0, 249, 255, 0.9);
+}
