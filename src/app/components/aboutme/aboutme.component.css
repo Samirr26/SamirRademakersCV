@@ -7,8 +7,6 @@
   box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
   margin: 30px auto;
   padding: 30px;
-
-
 }
 
 .aboutme-inner-container{
@@ -18,10 +16,14 @@
 
 .aboutme-container h1{
   color: rgba(0, 249, 255, 0.9);
+  font-family: 'Boomer Tantrum', sans-serif;
+
   font-size: 80px;
 }
 
 .aboutme-container h2{
+  font-family: 'Boomer Tantrum', sans-serif;
+
   color: rgba(0, 249, 255, 0.9);
   font-size: 40px;
 }
@@ -43,7 +45,8 @@
 
 .genre-info-container{
   padding: 20px;
-  margin: 20px;
+  margin-top: 25px;
+  margin-right: 40px;
   float: left;
   width: 500px;
   height: 500px;

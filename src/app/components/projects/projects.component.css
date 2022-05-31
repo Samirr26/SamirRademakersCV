@@ -26,6 +26,8 @@
 }
 
 .single-project-container h1{
+  font-family: 'Boomer Tantrum', sans-serif;
+
   color: rgba(0, 249, 255, 0.9);
   font-size: 75px;
 }
