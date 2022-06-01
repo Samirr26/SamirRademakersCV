@@ -1,3 +1,15 @@
 <div class="skills-container">
+  <h1>Skills</h1>
+  <mat-divider></mat-divider>
+
+  <div *ngFor="let skill of skill_list" class="single-skill-container">
+    <h2>{{skill.title}}</h2>
+    <mat-icon *ngFor="let star of getFilledStars(skill.stars)">star</mat-icon>
+    <mat-icon *ngIf="skill.halfStar">star_half</mat-icon>
+    <mat-icon *ngFor="let star of getEmptyStars(skill.stars,skill.halfStar)">star_border</mat-icon>
+
+
+  </div>
+
 
 </div>

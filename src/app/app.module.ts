@@ -11,6 +11,9 @@ import {MatIconModule} from '@angular/material/icon';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 
@@ -39,7 +42,10 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatProgressBarModule,
+    MatTooltipModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,8 +5,38 @@
   background-color: rgba(33,32,33,255);
   box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
   margin: 30px auto;
+  padding: 30px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+.skills-container h1{
+  color: rgba(0, 249, 255, 0.9);
+  font-family: 'Boomer Tantrum', sans-serif;
+  font-size: 70px;
+}
+
+.aboutme-container h2{
+  font-size: 30px;
+}
+
+.single-skill-container{
+  padding: 15px;
+  margin-top: 25px;
+  margin-right: 40px;
+  float: left;
+  width: 282px;
+  height: 115px;
+  background-color: rgba(42,41,42,255);
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+
+
+.mat-icon{
+  font-size: 30px !important;
+  color: gold;
 }
