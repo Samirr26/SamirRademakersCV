@@ -19,7 +19,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 
 
 const routes: Routes = [
-  {path: '', component: HomepageComponent},
+  {path: '', redirectTo: 'homepage', pathMatch: 'full'},
+  {path: 'homepage', component: HomepageComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'aboutme', component: AboutmeComponent},
   {path: 'skills', component: SkillsComponent},
