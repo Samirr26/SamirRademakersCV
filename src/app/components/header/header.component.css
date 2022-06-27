@@ -21,6 +21,7 @@
   margin: 0px;
   font-size: 50px;
   transition: all 0.3s ease 0s;
+
 }
 
 .logo h1 a{
@@ -30,6 +31,18 @@
 .logo h1:hover{
   font-size: 54px;
 }
+
+.logo h2{
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.logo h2 a{
+  color: rgba(0, 249, 255, 0.9);
+
+}
+
 
 
 .nav-container h1{
@@ -45,4 +58,101 @@
   font-size: 34px;
   color: rgba(0, 249, 255, 0.9);
 }
+
+.selected-button{
+  font-size: 34px;
+  color: rgba(0, 249, 255, 0.9);
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  /*padding-top: 23px;*/
+
+  position: relative;
+}
+
+nav h1 {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 33px;
+  cursor: pointer;
+}
+
+nav h1:hover {
+    /*color: rgba(0, 249, 255, 0.9);*/
+}
+
+nav h1::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: rgba(0, 249, 255, 0.9);
+
+  position: absolute;
+  /*top: 20px;*/
+  bottom: -10px;
+
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav h1:hover::before {
+  width: 100%;
+}
+
+
+
+/*.nav__links{*/
+/*  list-style: none;*/
+/*}*/
+
+/*.nav__links li{*/
+/*  display: inline-block;*/
+/*  padding: 0px 20px;*/
+
+/*  position: relative;*/
+/*}*/
+
+/*.nav__links li button{*/
+/*  font-size: 30px;*/
+/*  color: white;*/
+/*  background-color: rgba(0, 0, 0, 0.0);*/
+/*  border-color: rgba(0, 0, 0, 0.0);*/
+/*  padding: 1px 20px;*/
+/*  text-align: center;*/
+/*  cursor: pointer;*/
+/*  transition: all 0.3s ease 0s;*/
+/*}*/
+
+/*.nav__links li button:hover{*/
+/*  !*background-color: rgba(0, 249, 255, 0.9);*!*/
+/*  !*color: #000;*!*/
+/*}*/
+
+/*.nav__links button::before{*/
+/*  content: '';*/
+/*  display: block;*/
+/*  height: 5px;*/
+/*  width: 100%;*/
+/*  background-color: rgba(0, 249, 255, 0.9);*/
+
+/*  position: absolute;*/
+/*}*/
+
+
+
 

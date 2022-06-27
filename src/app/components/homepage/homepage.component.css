@@ -1,7 +1,7 @@
 .main-container{
-  font-family: 'Average Sans', sans-serif;
   padding: 20px;
-  margin: 80px auto;
+  font-family: 'Hacuia', sans-serif;
+  margin: 50px auto;
   background-color: rgba(33,32,33,255);
   box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
   width: 1700px;
@@ -25,13 +25,44 @@
 }
 
 .info-container h2{
-  font-size: 40px;
+  font-size: 36px;
   margin-top: 20px;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .info-container h3{
   font-family: 'Boomer Tantrum', sans-serif;
   font-size: 35px;
   margin: 0px;
+}
+
+.info-container h3 a{
+  color: rgba(0, 249, 255, 0.9);
+}
+
+.email{
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.email .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(15,14,15,255);
+  text-align: center;
+  border-radius: 6px;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.email:hover .tooltiptext {
+  visibility: visible;
+}
+
+.mat-icon{
+  font-size: 45px !important;
+  height: 100%;
+  width: 50px;
+  margin-right: 5px
 }
 

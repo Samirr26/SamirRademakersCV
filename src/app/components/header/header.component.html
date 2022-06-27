@@ -1,16 +1,30 @@
+<html>
+<body>
 <div class="header-container">
-
-
   <div class="logo">
     <h1 (click)="toHomePage()">SAMIR<a>RADEMAKERS</a></h1>
+    <h2> <a>Full stack</a> developer</h2>
+
   </div>
 
 
-  <div class="nav-container">
-    <h1>About me</h1>
-    <h1 (click)="toProjectsPage()">Projects</h1>
-    <h1 (click)="toSkillsPage()">Skills</h1>
-    <h1>Contact</h1>
-  </div>
+<!--  <div class="nav-container">-->
+<!--    <h1 class="nav-button" (click)="toAboutmePage()"> About me</h1>-->
+<!--    <h1 class="nav-button" (click)="toProjectsPage()">Projects</h1>-->
+<!--    <h1 class="nav-button" (click)="toSkillsPage()">Skills</h1>-->
+<!--    <h1 class="nav-button" (click)="toContactPage()">Contact</h1>-->
+<!--  </div>-->
+
+  <nav>
+    <ul>
+      <li><h1 (click)="toAboutmePage()">Home</h1></li>
+      <li><h1 (click)="toProjectsPage()">Projects</h1></li>
+      <li><h1 (click)="toSkillsPage()">Pricing</h1></li>
+      <li><h1 (click)="toContactPage()">Contact</h1></li>
+    </ul>
+  </nav>
 
 </div>
+
+</body>
+</html>

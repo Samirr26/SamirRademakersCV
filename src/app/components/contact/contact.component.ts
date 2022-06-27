@@ -1,18 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-homepage',
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
 })
-export class HomepageComponent implements OnInit {
+export class ContactComponent implements OnInit {
 
   copyString: string = 'Click to copy';
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
   copyText(val: string){
     const selBox = document.createElement('textarea');
@@ -29,5 +31,4 @@ export class HomepageComponent implements OnInit {
 
     this.copyString = 'Copied!'
   }
-
 }

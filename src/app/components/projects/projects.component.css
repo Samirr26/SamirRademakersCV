@@ -1,6 +1,6 @@
 
 .projects-container{
-  font-family: 'B612 Mono', sans-serif;
+  font-family: 'Hacuia', sans-serif;
   color: white;
   width: 2320px;
   height: 980px;
@@ -26,23 +26,26 @@
 }
 
 .single-project-container h1{
-  font-size: 75px;
+  font-family: 'Boomer Tantrum', sans-serif;
+  color: rgba(0, 249, 255, 0.9);
+  font-size: 70px;
+}
+
+.single-project-container h2{
+  margin-top: 25px;
+  font-family: 'Boomer Tantrum', sans-serif;
+  color: rgba(0, 249, 255, 0.9);
+  font-size: 30px;
+}
+
+.single-project-container h3{
+  margin-top: 15px;
+  font-size: 25px;
 }
 
 .description-container{
-  font-size: 20px;
   float: left;
   max-width: 840px;
-}
-
-.description-container h2{
-  margin-top: 15px;
-  font-size: 20px;
-}
-
-.description-container h1{
-  margin-top: 25px;
-  font-size: 30px;
 }
 
 .single-project-container img{
