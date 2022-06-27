@@ -8,12 +8,21 @@
   </div>
 
 
-  <div class="nav-container">
-    <h1 class="nav-button selected-button" (click)="toAboutmePage()"> About me</h1>
-    <h1 class="nav-button" (click)="toProjectsPage()">Projects</h1>
-    <h1 class="nav-button" (click)="toSkillsPage()">Skills</h1>
-    <h1 class="nav-button" (click)="toContactPage()">Contact</h1>
-  </div>
+<!--  <div class="nav-container">-->
+<!--    <h1 class="nav-button" (click)="toAboutmePage()"> About me</h1>-->
+<!--    <h1 class="nav-button" (click)="toProjectsPage()">Projects</h1>-->
+<!--    <h1 class="nav-button" (click)="toSkillsPage()">Skills</h1>-->
+<!--    <h1 class="nav-button" (click)="toContactPage()">Contact</h1>-->
+<!--  </div>-->
+
+  <nav>
+    <ul>
+      <li><h1 (click)="toAboutmePage()">Home</h1></li>
+      <li><h1 (click)="toProjectsPage()">Projects</h1></li>
+      <li><h1 (click)="toSkillsPage()">Pricing</h1></li>
+      <li><h1 (click)="toContactPage()">Contact</h1></li>
+    </ul>
+  </nav>
 
 </div>
 

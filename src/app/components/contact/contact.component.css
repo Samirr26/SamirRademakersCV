@@ -10,3 +10,55 @@
   justify-content: center;
   align-items: center;
 }
+
+.contact-container h1{
+  color: rgba(0, 249, 255, 0.9);
+  /*font-family: 'Boomer Tantrum', sans-serif;*/
+  font-family: 'Hacuia', sans-serif;
+
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+.contact-container h2{
+  /*color: rgba(0, 249, 255, 0.9);*/
+  font-size: 55px;
+}
+
+.contact-container a{
+  /*font-family: 'Boomer Tantrum', sans-serif;*/
+  /*color: rgba(0, 249, 255, 0.9);*/
+  font-size: 55px;
+}
+
+.contact-container h3{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.contact-container h4{
+  font-size: 21px;
+}
+
+.contact-list-container{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.email{
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.email .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(15,14,15,255);
+  text-align: center;
+  border-radius: 6px;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.email:hover .tooltiptext {
+  visibility: visible;
+}
