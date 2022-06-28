@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
   }
 
   toHomePage(){
-    this.router.navigate([""])
+    this.router.navigate(["homepage"])
   }
 
   toAboutmePage(){
